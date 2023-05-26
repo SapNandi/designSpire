@@ -5,7 +5,7 @@ const Contact = () => {
   const { isActive} = useContext(StateContext);
   return (
     <>
-      <section id="c" className={isActive ? "contact active" : "contact"}>
+      <section id="contact" className={isActive ? "contact active" : "contact"}>
         <div className="content">
           <h2>Contact Us</h2>
           <p>

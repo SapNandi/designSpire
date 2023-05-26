@@ -1,6 +1,7 @@
 import "./Footer.css";
 import { useContext } from "react";
 import { StateContext } from "../Contexts/StateContext";
+import logo from "../../images/logo.png";
 
 const Footer = () => {
   const { isActive } = useContext(StateContext);
@@ -8,7 +9,8 @@ const Footer = () => {
     <>
       <section className={isActive ? "footer active" : "footer"}>
         <div className="left">
-          <h3>LOGO</h3>
+          {/* <h3>LOGO</h3> */}
+          <img className="logo" src={logo} alt="" />
           <ul className="sci">
             <li>
               <a href="">
@@ -36,6 +38,9 @@ const Footer = () => {
           <h3>Company</h3>
           <ul className="footmenu">
             <li>
+              <a href="">FAQs</a>
+            </li>
+            <li>
               <a href="">About Us</a>
             </li>
             <li>
@@ -46,9 +51,6 @@ const Footer = () => {
             </li>
             <li>
               <a href="">Dictionary</a>
-            </li>
-            <li>
-              <a href="">Testimonials</a>
             </li>
           </ul>
         </div>
@@ -80,9 +82,11 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-          <div className="copyright">
-            <p>A DESIGNSPIRE company © 2023-2040 Vistaprint. All rights reserved.</p>
-          </div>
+        <div className="copyright">
+          <p>
+            A DESIGNSPIRE company © 2023-2040 Vistaprint. All rights reserved.
+          </p>
+        </div>
       </section>
     </>
   );

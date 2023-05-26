@@ -5,6 +5,7 @@ import { StateContext } from "./Components/Contexts/StateContext";
 import Header from "./Components/Header/Header";
 import Services from "./Components/Services/Services";
 import Footer from "./Components/Footer/Footer";
+import Products from "./Components/Products/Products";
 function App() {
   const [isActive, setActive] = useState(false);
   return (
@@ -12,8 +13,9 @@ function App() {
       <StateContext.Provider value={{isActive, setActive}}>
         <Header />
         <Services />
-        <Footer/>
+        <Products/>
         {/* <Contact /> */}
+        <Footer/>
       </StateContext.Provider>
     </div>
   );
