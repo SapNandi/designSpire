@@ -115,12 +115,13 @@ const Header = () => {
       <section id="home" className={isActive ? "banner active" : "banner"}>
         <header>
           <a href="#" className="LOGO">
-            <img className="logo" src={logo} alt="" />
+            <img className="logo" src={logo} alt="" draggable="false" />
           </a>
           <img
             className={isPoint ? "uselessModified" : "useless"}
             src={circle}
             alt=""
+            draggable="false"
           />
           <div
             className={isActive ? "toggle active" : "toggle"}

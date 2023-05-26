@@ -10,7 +10,7 @@ const Footer = () => {
       <section className={isActive ? "footer active" : "footer"}>
         <div className="left">
           {/* <h3>LOGO</h3> */}
-          <img className="logo" src={logo} alt="" />
+          <img className="logo" src={logo} alt="" draggable="false"/>
           <ul className="sci">
             <li>
               <a href="">
