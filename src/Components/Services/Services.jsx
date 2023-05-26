@@ -1,4 +1,4 @@
-import "./services.css";
+import "./Services.css";
 import { useContext } from "react";
 import { StateContext } from "../Contexts/StateContext";
 const Services = () => {

@@ -1,7 +1,7 @@
 import "./Products.css";
 import { useContext } from "react";
 import { StateContext } from "../Contexts/StateContext";
-import Card from "../Card/Card";
+// import Card from "../Card/Card";
 // import { Swiper, SwiperSlide} from "swiper/react";
 
 // Import Swiper styles
