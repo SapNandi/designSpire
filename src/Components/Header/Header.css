@@ -1002,7 +1002,7 @@ header .toggle {
   .imgBx .replace_img {
     visibility: visible !important;
     left: -1.2rem;
-    top: -2.5rem;
+    top: -8.5rem;
     width: 330px !important;
     position: absolute;
   }
@@ -1039,7 +1039,7 @@ header .toggle {
   .banner:before {
     content: "";
     position: absolute;
-    top: 287px;
+    top: 345px;
     left: 261px;
     width: 306px;
     height: 310px;
@@ -1048,8 +1048,8 @@ header .toggle {
   .banner:after {
     content: "";
     position: absolute;
-    bottom: 23.5rem;
-    right: 72px;
+    bottom: 31.5rem;
+    right: 82px;
     width: 240px;
     height: 240px;
   }
@@ -1068,7 +1068,7 @@ header .toggle {
   .content {
     flex-direction: column-reverse;
     margin: 47px 0;
-    height: 78vh;
+    height: 56vh;
   }
 
   .content .contentBx {
